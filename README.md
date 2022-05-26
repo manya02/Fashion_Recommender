@@ -24,7 +24,8 @@ So before cloning, we need to know that it requires a huge **dataset**. A larger
 
 still, the dataset was not small enough to upload on GitHub as it is containing approx **43,000** images. So for access, I am providing you with my one drive link 
 you can download both datasets and the pickel file of features extracted by that dataset together.
-**link:**
+
+[**Link to Onedrive**](https://1drv.ms/u/s!AmxN6a6Fpxbjigt6bl99rvdsAt81?e=Nc0Zh1)
 
 >if this doesn't work then just go through [this link](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small) this is the most popular site for providing datasets so just click download to compressed file then extract it and then copy **only image** folder to your **cloned folder**.
 
