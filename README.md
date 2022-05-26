@@ -5,12 +5,18 @@ In addition to this it will generate some special recommendations for some speci
 
 First, I built a clothing image classification model using a *ResNet-based model*. The feature layer of this model can capture fine-grained semantic clothing features like fabrics, styles, and patterns of the clothes. Then, using such features, the model can recommend similar clothes to the input images using *nearest neighbor search*.
 # Major Requirements/prerequisites
->[tensorflow](https://www.tensorflow.org/)letest version or the version given in requirement.txt
->[keras](https://keras.io/)letest version or the version given in requirement.txt
->[pillow](https://pillow.readthedocs.io/en/stable/)letest version or the version given in requirement.txt
->[sklearn](https://scikit-learn.org/stable/)letest version or the version given in requirement.txt
->[numpy](https://numpy.org/)letest version or the version given in requirement.txt
->[streamlit](https://docs.streamlit.io/)letest version or the version given in requirement.txt
+>[tensorflow](https://www.tensorflow.org/)  letest version or the version given in requirement.txt
+>
+>[keras](https://keras.io/)  letest version or the version given in requirement.txt
+>
+>[pillow](https://pillow.readthedocs.io/en/stable/)  letest version or the version given in requirement.txt
+>
+>[sklearn](https://scikit-learn.org/stable/)  letest version or the version given in requirement.txt
+>
+>[numpy](https://numpy.org/)  letest version or the version given in requirement.txt
+>
+>[streamlit](https://docs.streamlit.io/)  letest version or the version given in requirement.txt
+>
 >Below i have explained the process of installation.
 
 ## let's see how to clone
