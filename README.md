@@ -42,8 +42,9 @@ pip install -r requirements.txt
 ```
 ## let's talk about code
 
-As here I'm using **streamlet** as a front-end 
-And for ML coding I used python and used Anaconda(Jupyter) as an IDE 
+As here I'm using **streamlet** as a front-end .
+
+And for **ML coding** I used **python** and used **Anaconda(Jupyter)** as an IDE 
 so you need to type on terminal
 ```
 Streamlight run home.py
