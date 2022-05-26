@@ -4,6 +4,14 @@ so basically it will recommend n number of similar images to our provided sample
 In addition to this it will generate some special recommendations for some special products like if the uploaded image is **Women's top or Men's Shirt** then it will recommend n number or let say 5 images similar to that top or shirt plus **1 matchable jeans, 1 matchable goggle, 1 matchable shoe/sandals**.
 
 First, I built a clothing image classification model using a *ResNet-based model*. The feature layer of this model can capture fine-grained semantic clothing features like fabrics, styles, and patterns of the clothes. Then, using such features, the model can recommend similar clothes to the input images using *nearest neighbor search*.
+# Major Requirements/prerequisites
+>[tensorflow](https://www.tensorflow.org/)letest version or the version given in requirement.txt
+>[keras](https://keras.io/)letest version or the version given in requirement.txt
+>[pillow](https://pillow.readthedocs.io/en/stable/)letest version or the version given in requirement.txt
+>[sklearn](https://scikit-learn.org/stable/)letest version or the version given in requirement.txt
+>[numpy](https://numpy.org/)letest version or the version given in requirement.txt
+>[streamlit](https://docs.streamlit.io/)letest version or the version given in requirement.txt
+>Below i have explained the process of installation.
 
 ## let's see how to clone
 So before cloning, we need to know that it requires a huge **dataset**. A larger dataset or high-quality dataset will give you vibes like an original Shopping cart. But here I have used a small dataset because of a storage issue but you can change it according to your wishes. 
@@ -29,12 +37,14 @@ pip install -r requirements.txt
 ## let's talk about code
 
 As here I'm using **streamlet** as a front-end 
+And for ML coding I used python and used Anaconda(Jupyter) as an IDE 
 so you need to type on terminal
 ```
 Streamlight run home.py
 ```
 #### these files .pkl file and containing extracted features and correspondings name of images in different datasets.
 we did this to avoid again and again extraction of features of the same datasets.
+
 [feature_details_jeans.pkl](https://github.com/manya02/Fashion_Recommender/blob/main/feature_details_jeans.pkl)
 
 [feature_details_mensjeans.pkl](https://github.com/manya02/Fashion_Recommender/blob/main/feature_details_mensjeans.pkl) 
@@ -69,6 +79,8 @@ we did this to avoid again and again extraction of features of the same datasets
 ![image](https://user-images.githubusercontent.com/87933549/170553560-ef5463fd-b4b5-454d-92c7-e0248b7a2ffd.png)
 ![image](https://user-images.githubusercontent.com/87933549/170553750-cc39c0a4-424b-4e6b-ae02-d22ce9f807d3.png)
 
+I hope you will enjoy it.
+Thank-you 
 
 
 
