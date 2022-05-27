@@ -23,11 +23,11 @@ First, I built a clothing image classification model using a *ResNet-based model
 So before cloning, we need to know that it requires a huge **dataset**. A larger dataset or high-quality dataset will give you vibes like an original Shopping cart. But here I have used a small dataset because of a storage issue but you can change it according to your wishes. 
 
 still, the dataset was not small enough to upload on GitHub as it is containing approx **43,000** images. So for access, I am providing you with my one drive link 
-you can download both datasets and the pickel file of features extracted by that dataset together.
+you can download both zipped datasets and the pickel file of features extracted by that dataset together.
 
 [**Link to Onedrive**](https://1drv.ms/u/s!AmxN6a6Fpxbjigt6bl99rvdsAt81?e=Nc0Zh1)
 
->if this doesn't work then just go through [this link](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small) this is the most popular site for providing datasets so just click download to compressed file then extract it and then copy **only image** folder to your **cloned folder**.
+>if this doesn't work then just go through [this kaggle link](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small) this is the most popular site for providing datasets so just click download to compressed file then extract it and then copy **only image** folder to your **cloned folder**. but still you need to go through my **one drive** link to download one **.pkl file** .
 
 #### environment setup
 Now you have everything to run this project on your locals except **environment setup** for that almost we use vs code so just open your terminal and put these commands
@@ -87,7 +87,12 @@ we did this to avoid again and again extraction of features of the same datasets
 ![image](https://user-images.githubusercontent.com/87933549/170553560-ef5463fd-b4b5-454d-92c7-e0248b7a2ffd.png)
 ![image](https://user-images.githubusercontent.com/87933549/170553750-cc39c0a4-424b-4e6b-ae02-d22ce9f807d3.png)
 
+### Future scope of this project
+we can use **iterative model of software- Engineering** to update it and to make it to the level of **Shopping cart software**.
+and it could also convert into **many more recommendation project** as we only need to change datsets for that and just need to again create model and train new datasets.
+
 I hope you will enjoy it.
+
 Thank-you 
 
 
